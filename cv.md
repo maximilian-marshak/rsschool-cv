@@ -36,3 +36,10 @@ Project manager / Head of Internet projects (b2b)
 1. Development of an Internet resource. Carrying out work to improve quality indicators (users, purchases, returns, average bill).
 2. Automation of internal processes. Initiation of automation of the order formation process by the sales manager and its further implementation in 1C.
 3. Work on promotion and advertising. Supervision of work on SEO and contextual advertising. Start of work on SMM and E-mail marketing.
+### About me (short):
+* Experience with 1C-Bitrix (content manager certificate);
+* Experience with SAP ERP \ R3 (as part of an internship at EPAM Systems);
+* Knowledge of business process fundamentals.
+* Passed training as a software tester, received a certificate and a letter of recommendation from A1QA.
+* The best employee of the Borovoy Studio in 2013.
+* A letter of thanks from the company "LekPharm" for the successful implementation of the project.
