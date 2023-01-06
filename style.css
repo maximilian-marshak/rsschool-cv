@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.block-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.page-header, .page-main, .page-footer {
+    border: 1px solid red;
+}
+
+.page-header {
+    background-color: #829985;
+}
+
+.main-nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-nav__link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.main-nav__link:hover {
+    text-decoration: underline;
+}
+
+.main-promo {
+    display: flex;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+
+.main-foto__container {
+    width: 30%;
+    
+}
+
+.main-promo__foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.promo-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 70%;
+}
+
+.promo-title__title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.promo-title__title::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 2px;
+    background-color: #829985;
+}
+
+.promo-title__subtitle {
+    margin-top: 20px;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-grid {
+    display: flex;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.block-title__grid {
+    width: 30%;
+    padding: 1.75rem 1.75rem 1.75rem;
+    text-align: right;
+}
+
+.block-description {
+    width: 70%;
+    padding: 1.75rem 1.75rem 1.75rem;
+    font-size: 18px;
+    color: #4d2323;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.main-code__description {
+    padding: 0;
+    margin: 0;
+}
