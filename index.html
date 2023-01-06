@@ -3,20 +3,166 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML5. Базовый шаблон для любого проекта</title>
+  <title>CV</title>
   <meta name="description" content="Шаблон HTML5 для любого проекта">
-  <meta name="author" content="Кодер">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="">
-  <meta property="og:description" content="Шаблон HTML5 для любого проекта">
-  <meta property="og:image" content="image.png">
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <!-- your content here... -->
-  <script src="js/scripts.js"></script>
+<header class="page-header">
+    <div class="container">
+        <nav class="main-nav">
+            <ul class="main-nav__list list">
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#Contacts">Contacts
+                        </a>
+                    </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#Skills">Skills
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#Code">Code example
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#Job">Last job</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="page-main">
+    <div class="container">
+        <section class="main-promo">
+            <div class="main-foto__container">
+                <img class="main-promo__foto" src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.18169-9/13092110_863498503777034_2769429156918083931_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UqZsofUXTwcAX8uVEz8&tn=49jLkWkBSroYxCiS&_nc_ht=scontent-waw1-1.xx&oh=00_AfADxAFJxRbk2lHZyh0nDzTYRIIUhDLHl0DD64WqgAVOJA&oe=63DEA32A">
+            </div>
+            <div class="promo-title">
+                <h1 class="promo-title__title">
+                    Maxim Rusakov
+                </h1>
+                <h2 class="promo-title__subtitle">
+                    Junior Front-End Developer
+                </h2>
+            </div>
+        </section>
+        <section class="main-contacts section-grid">
+            <div class="main-contacts__title block-title__grid">
+                <h2 class="block-title">Contacts</h2>
+            </div>
+            <div class="main-contacts__description block-description">
+                <ul class="main-contacts__list list">
+                    <li class="main-contacts__item list-item">
+                        e-mail: maximilian.marshak@gmail.com
+                    </li>
+                    <li class="main-contacts__item list-item">
+                        tel: +375 29 111 22 33
+                    </li>
+                    <li class="main-contacts__item list-item">
+                        telegram: @mxmlnmrshk
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-skills section-grid">
+            <div class="main-skills__title block-title__grid">
+                <h2 class="block-title">Skills</h2>
+            </div>
+            <div class="main-contacts__description block-description">
+                <ul class="main-contacts__list list">
+                    <li class="main-contacts__item list-item">
+                        Web-development: HTML5, CSS3, JavaScript
+                    </li>
+                    <li class="main-contacts__item list-item">
+                        Frameworks and libraries: React, VUE JS
+                    </li>
+                    <li class="main-contacts__item list-item">
+                        Version control: GIT, Github
+                    </li>
+                    <li class="main-contacts__item list-item">
+                        Graphics: Figma
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-code section-grid">
+            <div class="main-code__title block-title__grid">
+                <h2 class="block-title">Code example</h2>
+            </div>
+            <pre class="main-code__description block-description">
+                <code class="main-code__code">
+                    function truncate(str, maxlength) {
+                        let newStr;
+                        if (str.length > maxlength) {
+                         newStr = str.slice(0, maxlength - 3) + "...";
+                         return newStr;
+                        }
+                        return str;
+                        }
+                </code>
+            </pre>
+        </section>
+        <section class="main-job section-grid">
+            <div class="main-job__title block-title__grid">
+                <h2 class="block-title">Last job</h2>
+            </div>
+            <div class="main-job__description block-description">
+                <p class="job-description">
+                    Project manager / Head of Internet projects (b2b) 
+                </p>
+                <h3 class="block-subtitle">
+                    Responsibility:
+                </h3>
+                <ul class="main-job__list list">
+                    <li class="main-job__item list-item">Planning and coordination of the budget for the year. Allocation of the budget for work.</li>
+                    <li class="main-job__item list-item">Planning activities for the development of the project. Coordination, implementation and launch.</li>
+                    <li class="main-job__item list-item">Realization of the set goals, reporting, analysis and evaluation of implemented solutions and work performed.</li>
+                    <li class="main-job__item list-item">Conducting interviews, participating in the recruitment process.
+                    </li>
+                    <li class="main-job__item list-item">Search for contractors and conclusion of an agreement with them. Full document management. Control and execution of payments.</li>
+                </ul>
+                <h3 class="block-subtitle">
+                    Main works:
+                </h3>
+                <ul class="main-job__list list">
+                    <li class="main-job__item list-item">Development of an Internet resource. Carrying out work to improve quality indicators (users, purchases, returns, average bill).
+                    </li>
+                    <li class="main-job__item list-item">Automation of internal processes. Initiation of automation of the order formation process by the sales manager and its further implementation in 1C.</li>
+                    <li class="main-job__item list-item">Work on promotion and advertising. Supervision of work on SEO and contextual advertising. Start of work on SMM and E-mail marketing.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-about section-grid">
+            <div class="main-about__title block-title__grid">
+                <h2 class="block-title">About me (short)</h2>
+            </div>
+            <div class="main-about__description block-description">
+                <ul class="main-about__list list">
+                    <li class="main-about__item list-item">
+                        Experience with 1C-Bitrix (content manager certificate);
+                    </li>
+                    <li class="main-about__item list-item">
+                        Experience with SAP ERP \ R3 (as part of an internship at EPAM Systems);
+                    </li>
+                    <li class="main-about__item list-item">
+                        Knowledge of business process fundamentals;
+                    </li>
+                    <li class="main-about__item list-item">Passed training as a software tester, received a certificate and a letter of recommendation from A1QA;
+                    </li>
+                    <li class="main-about__item list-item">
+                        The best employee of the Borovoy Studio in 2013;
+                    </li>
+                    <li class="main-about__item list-item">
+                        A letter of thanks from the company “LekPharm” for the successful implementation of the project.
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</main>
+<footer class="page-footer"></footer>
 </body>
 </html>
