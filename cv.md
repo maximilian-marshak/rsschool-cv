@@ -3,6 +3,7 @@
 ## Contacts:
 * e-mail: maximilian.marshak@gmail.com
 * tel: +375 29 6 105 505
+
 ********* 
 ## Skills:
 * HTML
@@ -46,7 +47,9 @@ function truncate(str, maxlength) {
 ```
 ## Last job:
 Borovoy Studio
+
 Project manager
+
 july 2013 - february 2015
 ### Responsibility:
 Project management (full cycle), maintaining and compiling project documentation, monitoring compliance with work deadlines, setting and distributing tasks, communicating with clients (working with expectations and objections), preparing internal reports, working with documents (contracts, acts).
@@ -58,14 +61,18 @@ Project management (full cycle), maintaining and compiling project documentation
 * 3 of the launched projects in 2014 were included in the top 5 works of Borovoy Studio in 2014.
 ## Last job:
 Global Call
+
 Project manager
+
 november 2015 - december 2016
 ### Responsibility:
 Project management (full cycle), maintaining and compiling project documentation, monitoring compliance with work deadlines, setting and distributing tasks, communicating with clients (working with expectations and objections), preparing internal reports, working with documents (contracts, acts). Building and establishing work processes within the organization.
 
 ## Last job:
 Flex Media
+
 Project manager
+
 december 2016 - april 2019
 ### Responsibility:
 1. Project management (full cycle), from the moment of receipt from the sales department to the moment of launch into production.
@@ -79,7 +86,9 @@ Among the projects with which I worked, many received awards in the bynet rating
 The portfolio of works includes both landing pages and promo sites, as well as online stores with integrations with 1C.
 ## Last job:
 OMA
+
 Project manager / Head of Internet projects (b2b)
+
 april 2019 - october 2021
 ### Responsibility:
 1. Planning and coordination of the budget for the year. Allocation of the budget for work.
